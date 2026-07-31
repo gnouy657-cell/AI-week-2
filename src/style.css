@@ -1,1 +1,11 @@
+body {
+  background-color: rgb(211, 248, 211);
+}
 
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
