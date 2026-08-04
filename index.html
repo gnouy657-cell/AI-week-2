@@ -6,7 +6,7 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>AI Poem Generator</title>
+    <title>AI Poem Generator | SheCodes Week 2</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +17,7 @@
   <body>
     <div class="container">
       <header>
-        <h1>Week 2 of AI SheCodes</h1>
+        <h1>AI Poem Generator</h1>
       </header>
 
       <main>
@@ -25,35 +25,44 @@
           <form id="poem-form">
             <input
               type="text"
-              placeholder="Enter topic of poem you want to generate..."
+              placeholder="Enter the topic of the poem..."
               autofocus
               required
               autocomplete="off"
               class="topic"
               id="user-input"
             />
-            <input type="submit" class="submit-button" />
+            <button type="submit" class="submit-button">Generate Poem</button>
           </form>
-          <div class="form-hint">i.e. Flowers, Children or Love</div>
+          <div class="form-hint">e.g., Flowers, Children, or Love</div>
         </div>
       </main>
       <div class="poem-container hidden" id="poem-container"></div>
       <footer>
         This AI poem generator was coded by
-        <a href="https://github.com/gnouy657-cell" target="_blank">
+        <a
+          href="https://github.com/gnouy657-cell"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Brooke Thao
         </a>
         and is open-sourced on
-        <a href="https://github.com/gnouy657-cell/AI-week-2" target="_blank">
+        <a
+          href="https://github.com/gnouy657-cell/AI-week-2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub
         </a>
         and is hosted on
         <a
           href="https://transcendent-tulumba-07f744.netlify.app/"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          Netlify.
-        </a>
+          Netlify </a
+        >.
       </footer>
     </div>
 
