@@ -33,7 +33,7 @@ form {
   margin-bottom: 20px;
 }
 
-.topic-input {
+.topic {
   padding: 10px;
   font-size: 16px;
   border-radius: 50px;
@@ -68,6 +68,9 @@ form {
   border-left: 15px solid rgb(86, 172, 143);
 }
 
+.poem-container strong {
+  color: rgb(61, 121, 100);
+}
 footer {
   text-align: center;
   font-size: 14px;

@@ -11,10 +11,11 @@ function displayPoem(response) {
 function generatePoem(event) {
   event.preventDefault();
 
-  let topic-inputInput = document.querySelector("#user-input")
+  let topicInput = document.querySelector("#user-input");
   let apiKey = "eob2a41574f3at947904539fe34b012a";
-  let prompt = `Generate a poem about ${topic-inputInput.value}`;
-  let context = "Make sure to follow the user input. You are a poet who writes beautiful and creative poems. You have a unique style and a deep understanding of language and emotions. Your poems are often inspired by nature, love, and the human experience. You have a talent for using metaphors and imagery to convey complex ideas and emotions in a short, simple and elegant way. Your poems are often thought-provoking and leave a lasting impression on the reader.";
+  let prompt = `Generate a poem about ${topicInput.value}`;
+  let context =
+    "You are a poet. Write a creative, elegant poem about the user's topic. Use simple language, vivid imagery, and metaphors. Make it exactly 8 lines. Generate an original poem in basic HTML only. Use <p> elements for each line. Do NOT wrap the response in Markdown code fences. Do NOT include ```html or ``` anywhere. Return only the HTML. Credit SheCodes AI at the end of the poem wrapping it in <strong> inclduing a dash before SheCodes AI.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   console.log("Generating poem...");
