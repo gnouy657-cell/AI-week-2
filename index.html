@@ -21,20 +21,23 @@
       </header>
 
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter topic of poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="topic"
-            id="user-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Enter topic of poem you want to generate..."
+              autofocus
+              required
+              autocomplete="off"
+              class="topic"
+              id="user-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="form-hint">i.e. Flowers, Children or Love</div>
+        </div>
       </main>
-      <div class="poem-container" id="poem-container"></div>
+      <div class="poem-container hidden" id="poem-container"></div>
       <footer>
         This AI poem generator was coded by
         <a href="https://github.com/gnouy657-cell" target="_blank">

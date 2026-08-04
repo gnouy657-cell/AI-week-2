@@ -24,13 +24,24 @@ h1 {
   text-align: center;
 }
 
-form {
-  padding: 25px;
+.form-container {
   background-color: rgb(128, 199, 145);
-  border-radius: 10px;
-  display: flex;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+.form-hint {
+  line-height: 20px;
+  font-size: 14px;
+  margin-top: 8px;
+  opacity: 0.4;
+  margin-left: 20px;
+}
+
+form {
+  display: flex;
 }
 
 .topic {
@@ -68,9 +79,48 @@ form {
   border-left: 15px solid rgb(86, 172, 143);
 }
 
+.hidden {
+  display: none;
+}
+
 .poem-container strong {
   color: rgb(61, 121, 100);
 }
+
+.bounce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.bounce span {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #6c63ff;
+  border-radius: 50%;
+  display: inline-block;
+  animation: bounce 0.6s infinite alternate;
+}
+
+.bounce span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.bounce span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
 footer {
   text-align: center;
   font-size: 14px;
