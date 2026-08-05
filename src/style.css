@@ -3,7 +3,7 @@ body {
 }
 
 a {
-  color: rgb(61, 121, 100);
+  color: rgb(7, 124, 85);
   text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ main {
 }
 
 .form-container {
-  background-color: rgb(128, 199, 145);
+  background-color: rgb(177, 235, 191);
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -62,17 +62,16 @@ form {
   line-height: 20px;
   color: rgb(0, 0, 0);
   margin-left: 10px;
-  background-color: rgb(61, 121, 100);
+  background-color: rgb(103, 181, 154);
   border: none;
   width: 30%;
-  color: rgb(255, 255, 255);
 }
 
 .poem-container {
   font-size: 16px;
   line-height: 25px;
   padding: 25px;
-  background-color: rgb(128, 199, 145);
+  background-color: rgb(177, 235, 191);
   border-radius: 10px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 20px;
